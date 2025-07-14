@@ -19,7 +19,7 @@ Welcome to my portfolio! This website showcases my skills, projects, and experie
 ## Live Demo
 
 You can view my portfolio live at:
-[https://coolercj.github.io/portfolio/](https://coolercj.github.io/portfolio/)
+[https://coolercj.github.io/Portfolio/](https://coolercj.github.io/Portfolio/)
 
 ## Installation
 
