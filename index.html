@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Where technology meets innovation: building smart IT solutions</p>
+            <marquee behavior="" direction="left"> CALVIN NYASHA MASANGOMAYI</marquee>
+
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#expertise">Expertise</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <div class="image-container"></div>
+            <img src="images/me.png" alt="Calvin N Masangomayi" class="profile-pic">
+        </div>
+            <p>I am Calvin Nyasha Masangomayi, a young male currently pursuing a Bachelor of Science Honors Degree in Computer Systems Engineering at Midlands State University, Gweru Zimbabwe. I'm passionate about technology and eager to apply practical knowledge in a proffessional setting. Skilled in different fields as mentioned in the skills section. Im seeking an opprtunity to contribute to innovative projects, gain valuable industry eperience and further develop both technical and profesional skills. Adaptable fast learner and ommitted to continuous improvement.</p>
+    </section>
+
+    <section id="expertise" class="container">
+        <h2>Expertise / Areas of Interest</h2>
+        <ol>
+            <li>Web development</li>
+            <li>Mobile App development</li>
+            <li>Networking</li>
+            <li>Database Management</li>
+            <li>Machine learning</li>
+        </ol>
+    </section>
+
+    <section id="skills" class="container">
+        <h2>Technical Skills</h2>
+        <p>Programming Languages: </p>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>Node JS</li>
+        <li>HTML</li>
+        <li>React</li>
+        <li>Operating Systems</li>
+        <li>Computer Networking</li>
+        <p>Tools/Technologies:</p>
+        <li>PYCHARM</li>
+        <li>VS Code</li>
+        <li>Microsoft Powerpoint, word and excel</li>
+        <li>Mongo DB</li>
+    </section>
+
+   <section id="projects" class="container">
+    <h2>Projects</h2>
+    <article>
+        <h3>Project 1: MSU ROOMMATE MATCH SYSTEM</h3>
+        <p>Created a full-stack web application designed to help university students find compatible roommates based on personal preferences and lifestyle habits.</p>
+        <p>For more details, go to <a href="project1.html">this page</a>.</p>
+    </article>
+</section>
+
+    <footer id="contact" class="container">
+        <h2>Contact Me</h2>
+        <p>Call: +263777093774</p>
+        <p>Email me: <a href="mailto:calvinmasangomayi@gmail.com">calvinmasangomayi@gmail.com </a></p>
+        <p>Follow me on 
+            <a href="https://www.linkedin.com/in/calvin-masangomayi-2721802b7/" target="_blank">LinkedIn</a>
+             |  <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="https://github.com/coolercj" target="_blank">GitHub</a>
+                <i class="fab fa-github"></i> GitHub
+            </a>
+        </p>
+
+        <h3>Leave a Comment</h3>
+        <form id="comment-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="comment">Comment:</label>
+            <textarea id="comment" name="comment" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
